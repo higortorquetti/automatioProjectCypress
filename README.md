@@ -11,7 +11,7 @@ Para todos os testes vou usar o site [automation testes](https://automationexerc
 - **S1: Login/New User**   
   **T1:** Login usando email incorreto.</br>
   **T2:** Login usando senha incorreta.</br>
-  **T3:** Criar um novo usuario e exclui em seguida. </br>
+  **T3:** Cria um novo usuario e exclui em seguida. </br>
   **T4:** Registrar novo usuario com email já existente.</br>
   **T5** Efetua o login e em seguida o logout.
 
@@ -24,4 +24,4 @@ Para todos os testes vou usar o site [automation testes](https://automationexerc
 
 - **S4** Cart</br>
   **T1:** Inseri X produtos no carrinho e verifica se a quantidade no carrinho é igual a inserida</br>
-  **T2** Inseri X produtos e efetua o pedido pedido</br>
+  **T2** Inseri X produtos e efetua o pedido pedido.</br>
