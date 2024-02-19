@@ -54,7 +54,7 @@ describe('Testes com Carrinho', () => {
 
         //preenche os dados do cartão de credito e confirma o pedido
         cy.get('input[data-qa="name-on-card"]').type(dados.nomeDoCartao);
-        cy.get('input[data-qa="card-number"]').type(dados.nomeDoCartao);
+        cy.get('input[data-qa="card-number"]').type(dados.numeroDoCartao);
         cy.get('input[data-qa="cvc"]').type(dados.cvcDoCartao);
         cy.get('input[data-qa="expiry-month"]').type(dados.dataMesExpericao);
         cy.get('input[data-qa="expiry-year"]').type(dados.dataAnoExpericao);
